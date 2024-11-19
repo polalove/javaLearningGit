@@ -13,7 +13,7 @@ public class SearchTests {
         $("[id=search]").shouldHave(text("https://ru.selenide.org"));
 
 // Test
-// broken git
+// broken git 2
         // test git ^)
     }
 }
