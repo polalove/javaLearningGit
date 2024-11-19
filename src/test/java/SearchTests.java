@@ -11,6 +11,12 @@ public class SearchTests {
         open("https://www.google.com/");
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("https://ru.selenide.org"));
+    }
+    @Test
+    void successfulSearchTestSecond() {
+        open("https://www.google.com/");
+        $("[name=q]").setValue("selenide").pressEnter();
+        $("[id=search]").shouldHave(text("https://ru.selenide.org"));
 
 // Test
 // broken git 2
